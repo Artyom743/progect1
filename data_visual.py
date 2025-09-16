@@ -30,8 +30,6 @@ def is_categorical_column(column):
     
     Args:
         column (pd.Series): Столбец для проверки
-        max_unique_ratio (float): Максимальное отношение уникальных значений 
-                                к общему количеству (по умолчанию 0.1 = 10%)
     
     Returns:
         bool: True если столбец категориальный, иначе False
